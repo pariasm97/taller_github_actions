@@ -1,4 +1,0 @@
-# Dependencias del proyecto
-# Instalar con: pip install -r requirements.txt
-
-pytest==7.4.0
