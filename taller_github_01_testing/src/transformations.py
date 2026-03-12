@@ -26,8 +26,8 @@ def calcular_total_venta(precio: float, cantidad: int) -> float:
         200.0
     """
     # Validar que el precio no sea negativo
-    # if precio < 0:
-    #     raise ValueError(f"El precio no puede ser negativo: {precio}")
+    if precio < 0:
+        raise ValueError(f"El precio no puede ser negativo: {precio}")
 
     # Validar que la cantidad sea al menos 1
     if cantidad < 1:
